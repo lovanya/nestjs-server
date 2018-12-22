@@ -1,0 +1,11 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "database": "nestjs",
+  "port": 27000,
+  "username": "nestjs",
+  "password": "123456",
+  "entities": ["src/**/**.entity{.ts,.js}"],
+  "synchronize": true,
+  "useNewUrlParser": true
+}
